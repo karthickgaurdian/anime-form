@@ -1,2 +1,40 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="anime.css">
+    <style>
+        name,email,phone{
+            color: deepskyblue;
+        }
+        .button{
+            color: cyan;
+        }
+        body{
+            background-color: rgb(236, 202, 244);
+        }
+    </style>
+</head>
+<body>
+    <br><br><br><br>
+    <form align="center">
+        <label>
+            <input type="text" name="email" id="email" required />
+            <div class="lable=text">Institution Name</div>
+        </label> 
+        <label>
+            <input type="text" name="phone" id="phone" required />
+            <div class="lable-text">Institution Location</div>
+
+        </label>
+        <button type="submit" onclick="alert('we keep your data safe')" value="submit">submit</button>
+        <br><br><a href="C:\Users\Karthick\Documents\demoproject.html">back to home</a>
+        </form>
+        <br>
+        
+
+</body>
+</html>
